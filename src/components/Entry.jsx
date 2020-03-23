@@ -88,7 +88,7 @@ export default function Entry(props) {
           {date}
         </span>
       </div>
-      {user && (user.uid === props.uid || user.uid === 'gwPMgUwQyNWMI8LpMBIaJcDvXPc2')
+      {user && (user.uid === props.uid || user.uid === 'vm32E0DHv5OYz7tvAPgQst87NgJ2')
         ? (
           <div>
             <button type="button" className="btn-green my-2" onClick={handleDelete}>{t('components.entry.deleteYourRequest')}</button>
