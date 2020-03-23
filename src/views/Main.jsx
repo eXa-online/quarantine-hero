@@ -35,7 +35,7 @@ export default function Main() {
     <div className="flex items-center flex-col">
       <div className="phone-width">
         <div className="font-main flex md:hidden text-white ">
-          <img className="logo-margin" src={(require('../assets/logo.svg'))} alt="logo" />
+          <img className="logo-margin max-logo" src={(require('../assets/logo.svg'))} alt="logo" />
         </div>
         <div className="flex text-center font-teaser justify-center w-full my-8 md:my-10">
           {t('views.main.weAreHumans')}
@@ -92,7 +92,7 @@ export default function Main() {
             <br className="sm:hidden" />
             {t('views.main.noInternet.preLink')}
             {' '}
-            <a href="/assets/aushang.pdf" className="text-secondary hover:underline" download="/assets/aushang.pdf">{t('views.main.noInternet.link')}</a>
+            <a href="/assets/aushang.pdf" className="text-primary hover:underline" download="/assets/aushang.pdf">{t('views.main.noInternet.link')}</a>
             {t('views.main.noInternet.postLink')}
           </p>
         </div>

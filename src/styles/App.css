@@ -4,29 +4,33 @@
 }
 
 .font-main {
-    font-family: 'Exo 2', sans-serif;
+    font-family: 'BullText', sans-serif;
     font-weight: 800;
     font-size: 29px;
 }
 
 .font-exo2 {
-    font-family: 'Exo 2', sans-serif;
+    font-family: 'BullText', sans-serif;
+}
+.font-ntf {
+    font-family: 'NTF-Grand', sans-serif;
+    letter-spacing: 1px;
 }
 
 .font-teaser {
-    font-family: 'Exo 2', sans-serif;
-    font-weight: 600;
+    font-family: 'BullText', sans-serif;
+    font-weight: 500;
     line-height: 1.40;
     color: #222;
     font-size: 24px;
 }
 
 .btn-main {
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 16px;
+    font-family: 'NTF-Grand', sans-serif;
+    font-size: 20px;
     font-weight: bold;
     font-stretch: condensed;
-    letter-spacing: 0;
+    letter-spacing: 1px;
 }
 
 .btn-gray {
@@ -35,7 +39,7 @@
 }
 
 .font-open-sans {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'BullText', sans-serif;
     letter-spacing: 0;
 }
 
@@ -69,6 +73,9 @@
 }
 .logo-margin {
     margin-left: -30px;
+}
+.max-logo {
+    max-width: 350px;
 }
 
 .entry {

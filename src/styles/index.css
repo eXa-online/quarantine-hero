@@ -2,6 +2,31 @@
 
 @tailwind base;
 
+@font-face{
+    font-family:'BullText';
+    font-weight:400;
+    src:url(../fonts/BullText-Regular.otf) format("opentype")}
+
+
+@font-face{
+    font-family:'BullText';
+    font-weight:500;
+    src:url(../fonts/BullText-Medium.otf) format("opentype")}
+
+
+@font-face{
+    font-family:'BullText';
+    font-weight:800;
+    src:url(../fonts/BullText-Bold.otf) format("opentype")}
+
+@font-face{
+    font-family:'NTF-Grand';
+    font-style:normal;
+    src:url(../fonts/NTF-Grand-Medium.otf) format("opentype")}
+
+
+
+
 @tailwind components;
 
 @tailwind utilities;
@@ -15,8 +40,8 @@
 }
 
 .btn-green {
-    background-color: #87a544;
-    font-family: 'Open Sans Condensed', sans-serif;
+    background-color: #0C2044;
+    font-family: 'BullText', sans-serif;
     font-size: 16px;
     font-weight: bold;
     font-stretch: condensed;
@@ -37,9 +62,9 @@
 }
 
 .btn-green-secondary {
-    border: 2px solid #87a544;
-    color: #87a544;
-    font-family: 'Open Sans Condensed', sans-serif;
+    border: 2px solid #0C2044;
+    color: #0C2044;
+    font-family: 'BullText', sans-serif;
     font-size: 16px;
     font-weight: bold;
     font-stretch: condensed;
@@ -63,12 +88,12 @@
     border-width: 1px;
     margin-bottom: 2px;
     font-size: 16px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'BullText', sans-serif;
     @apply border rounded p-3 leading-tight w-full;
 }
 
 .input-focus:focus {
-    border-bottom: 3px solid #87a544;
+    border-bottom: 3px solid #0C2044;
     margin-bottom: 0;
     outline: none;
 }

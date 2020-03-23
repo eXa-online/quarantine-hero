@@ -124,8 +124,8 @@ module.exports = {
         800: '#97266d',
         900: '#702459',
       },
-      'secondary': '#87a544',
-      'primary': '#b6223e',
+      'secondary': '#0C2044',
+      'primary': '#dd013f',
     },
     spacing: {
       px: '1px',
