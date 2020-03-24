@@ -22,6 +22,7 @@ import Success from './views/Success';
 import fb from './firebase';
 import SuccessOffer from './views/SuccessOffer';
 import DSGVO from './views/DSGVO';
+import Disclaimer from './views/Disclaimer';
 import Sidebar from './components/Sidebar';
 import DesktopMenu from './components/DesktopMenu';
 import VerifyEmail from './views/VerifyEmail';
@@ -63,7 +64,7 @@ function App(props) {
   return (
     <div className="flex items-center min-h-screen flex-col bg-rb-transition relative">
       <div className="bg-image-net absolute inset-0 bg-fixed">
-        <img className="bg-image-net-img fixed opacity-25" src="https://www.dierotenbullen.com/images/0010/1/1800/1200/805/rbl//2017/2/2/ebbb4092aa9694ec9aabe2ee143b4067.png" />
+        <img className="fixed opacity-25" alt="net bg" src="https://www.dierotenbullen.com/images/0010/1/1800/1200/805/rbl//2017/2/2/ebbb4092aa9694ec9aabe2ee143b4067.png" />
       </div>
       <Router>
         <div className="hidden md:flex justify-end md:mt-12 w-full phone-width items-center relative">
@@ -76,7 +77,7 @@ function App(props) {
           <DesktopMenu isLoggedIn={user} signOut={signOut} />
           <div className="md:px-16 overflow-hidden">
             <div style={{ zIndex: 101 }} className="visible md:invisible h-16 w-full fixed top-0 bg-white flex flex-row justify-between w-full items-center pr-5 border-b-2">
-              <a href="https://www.dierotenbullen.com" target="_blank" className="font-main ml-4" style={{ fontWeight: '600' }}>
+              <a href="https://www.dierotenbullen.com" target="_blank" rel="noopener noreferrer" className="font-main ml-4" style={{ fontWeight: '600' }}>
                 <div className="font-ntf text-primary">DIEROTENBULLEN.COM</div>
               </a>
               <div>
@@ -121,6 +122,9 @@ function App(props) {
                 </Route>
                 <Route path="/dsgvo">
                   <DSGVO />
+                </Route>
+                <Route path="/disclaimer">
+                  <Disclaimer />
                 </Route>
                 <Route path="/notify-me">
                   <NotifyMe />

@@ -173,12 +173,14 @@
       "FAQs": "FAQs",
       "press": "Presse",
       "legal": "Impressum",
+      "disclaimer": "Disclaimer",
       "privacy": "Datenschutz",
       "login": "Login",
       "signOut": "Abmelden"
     },
     "footer": {
       "FAQs": "FAQs",
+      "disclaimer": "Disclaimer",
       "legal": "Impressum",
       "privacy": "Datenschutz",
       "forEveryone": "© 2020 RasenBallsport Leipzig."

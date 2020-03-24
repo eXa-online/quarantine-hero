@@ -18,16 +18,29 @@ export default function Sidebar(props) {
 
   const MenuItem = (menuItemProps) => (
     <li className="py-1 hover:opacity-50">
-      <Link
-        className="py-2 block"
-        onClick={() => {
-          if (menuItemProps.onClick) menuItemProps.onClick();
-          onClose();
-        }}
-        to={menuItemProps.to}
-      >
-        {menuItemProps.children}
-      </Link>
+      {menuItemProps.type === "extern"
+        ? <a
+          href={menuItemProps.to}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="py-2 block"
+           onClick={() => {
+             if (menuItemProps.onClick) menuItemProps.onClick();
+             onClose();
+           }}>
+            {menuItemProps.children}
+          </a>
+        : <Link
+          className="py-2 block"
+          onClick={() => {
+            if (menuItemProps.onClick) menuItemProps.onClick();
+            onClose();
+          }}
+          to={menuItemProps.to}
+        >
+          {menuItemProps.children}
+        </Link>
+      }
     </li>
   );
 
@@ -50,8 +63,9 @@ export default function Sidebar(props) {
       <MenuItem to="/overview">{t('components.sidebar.overview')}</MenuItem>
       {menuProps.isLoggedIn && <MenuItem to="/dashboard">{t('components.sidebar.yourOverview')}</MenuItem>}
       <MenuItem to="/faq">{t('components.sidebar.FAQs')}</MenuItem>
-      <MenuItem to="/impressum">{t('components.sidebar.legal')}</MenuItem>
-      <MenuItem to="/dsgvo">{t('components.sidebar.privacy')}</MenuItem>
+      <MenuItem to="https://policies.redbull.com/r/Rasenballsport_Leipzig/imprint/de" type="extern">{t('components.sidebar.legal')}</MenuItem>
+      <MenuItem to="https://policies.redbull.com/r/Rasenballsport_Leipzig/privacy/de" type="extern">{t('components.sidebar.privacy')}</MenuItem>
+      <MenuItem to="/disclaimer">{t('components.sidebar.disclaimer')}</MenuItem>
 
       {menuProps.isLoggedIn
         ? <MenuItem to="/" onClick={menuProps.signOut}>t('components.sidebar.signOut')</MenuItem>
