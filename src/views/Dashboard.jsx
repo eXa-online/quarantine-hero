@@ -76,7 +76,7 @@ export default function Dashboard() {
           <div className="font-open-sans">
             {t('views.dashboard.noRequests')}
             {' '}
-            <Link className="text-secondary hover:underline" to="/ask-for-help" onClick={() => fb.analytics.logEvent('button_want_to_help')}>hier</Link>
+            <Link className="text-primary hover:opacity-50" to="/ask-for-help" onClick={() => fb.analytics.logEvent('button_want_to_help')}>hier</Link>
             {' '}
             {t('views.dashboard.create')}
           </div>
@@ -90,7 +90,7 @@ export default function Dashboard() {
           <div className="font-open-sans">
             {t('views.dashboard.noNotificationsSubscribed')}
             {' '}
-            <Link className="text-secondary hover:underline" to="/notify-me" onClick={() => fb.analytics.logEvent('button_subscribe_region')}>{t('views.dashboard.here')}</Link>
+            <Link className="text-primary hover:opacity-50" to="/notify-me" onClick={() => fb.analytics.logEvent('button_subscribe_region')}>{t('views.dashboard.here')}</Link>
             {' '}
             {t('views.dashboard.register')}
             .

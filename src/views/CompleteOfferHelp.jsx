@@ -76,7 +76,7 @@ export default function CompleteOfferHelp() {
       </p>
       <div className="flex justify-center flex-col items-center mb-8">
         <img className="h-48 w-48 my-10" src={require('../assets/success.svg')} alt="" />
-        <Link className="btn-green mt-10" to="/dashboard">{t('views.completeOfferHelp.toYourOverview')}</Link>
+        <Link className="btn-custom mt-10" to="/dashboard">{t('views.completeOfferHelp.toYourOverview')}</Link>
       </div>
       <Footer />
     </div>

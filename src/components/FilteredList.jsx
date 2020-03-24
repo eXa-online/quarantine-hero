@@ -158,7 +158,7 @@ export default function FilteredList(props) {
       </div>
       <div className="py-3 w-full">
         <div className="my-3 w-full">
-          <Link to="/notify-me" className="btn-green-secondary my-3 mb-6 w-full block" onClick={() => fb.analytics.logEvent('button_subscribe_region')}>
+          <Link to="/notify-me" className="btn-custom my-3 mb-6 w-full block" onClick={() => fb.analytics.logEvent('button_subscribe_region')}>
             {t('components.filteredList.notifyMe')}
             {' '}
             {location && location !== '' ? `${t('components.filteredList.closeTo')} ${location}` : t('components.filteredList.closeToMe')}

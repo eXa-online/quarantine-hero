@@ -109,7 +109,7 @@ export default function Presse() {
             {' '}
             <a
               href="https://we.tl/t-FhgDBEFBih"
-              className="text-secondary hover:underline"
+              className="text-primary hover:opacity-50"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -119,7 +119,7 @@ export default function Presse() {
               Pressekontakt:
               <br className="sm:hidden" />
               {' '}
-              <a href="mailto:presse@quarantaenehelden.org" className="text-secondary hover:underline">presse@quarantaenehelden.org</a>
+              <a href="mailto:presse@quarantaenehelden.org" className="text-primary hover:opacity-50">presse@quarantaenehelden.org</a>
             </div>
           </div>
         </div>

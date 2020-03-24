@@ -87,14 +87,14 @@ const Signup = (props) => {
         ) : ''}
         <div className="flex justify-end my-6">
           <button
-            className="btn-green w-full"
+            className="btn-custom w-full"
             type="submit"
           >
             Jetzt Registrieren oder Anmelden
           </button>
         </div>
       </form>
-      <button type="button" onClick={sendPasswordResetMail} className="btn-green-secondary w-full">
+      <button type="button" onClick={sendPasswordResetMail} className="btn-custom-secondary w-full">
         Passwort zurücksetzen
       </button>
       {passwordResetSuccess && <div className="my-5 bg-yellow-100 border rounded p-2 px-4 text-gray-800">Eine Email mit Anleitung zum Zurücksetzen deines Passworts wurde dir zugesendet!</div>}

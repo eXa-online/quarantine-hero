@@ -39,7 +39,7 @@
     @apply rounded p-4 bg-secondary text-secondary w-full inline-block text-center font-bold;
 }
 
-.btn-green {
+.btn-custom {
     background-color: #0C2044;
     font-family: 'BullText', sans-serif;
     font-size: 16px;
@@ -49,7 +49,7 @@
     @apply rounded py-2 pl-4 text-white text-center pr-8 relative;
 }
 
-.btn-green::after {
+.btn-custom::after {
     content: ">";
     font-weight: bold;
     font-size: 1.5em;
@@ -57,13 +57,13 @@
     bottom: 2px;
     margin-left: 10px;
 }
-.btn-green:hover {
+.btn-custom:hover {
     opacity: 0.5;
 }
 
-.btn-green-secondary {
-    border: 2px solid #0C2044;
-    color: #0C2044;
+.btn-custom-secondary {
+    border: 2px solid #dd013f;
+    color: #dd013f;
     font-family: 'BullText', sans-serif;
     font-size: 16px;
     font-weight: bold;
@@ -72,7 +72,7 @@
     @apply rounded py-2 pl-4 text-center pr-8 relative;
 }
 
-.btn-green-secondary::after {
+.btn-custom-secondary::after {
     content: ">";
     font-weight: bold;
     font-size: 1.5em;
@@ -80,7 +80,7 @@
     bottom: 2px;
     margin-left: 10px;
 }
-.btn-green-secondary:hover {
+.btn-custom-secondary:hover {
     opacity: 0.5;
 }
 

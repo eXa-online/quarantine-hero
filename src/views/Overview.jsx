@@ -20,7 +20,7 @@ export default function AskForHelp() {
           <br className="sm:hidden" />
           <Trans i18nKey="views.overview.noInternet.postBreak">
             text
-            <a href="/assets/aushang.pdf" className="text-secondary hover:underline" download="/assets/aushang.pdf">text</a>
+            <a href="/assets/aushang.pdf" className="text-primary hover:opacity-50" download="/assets/aushang.pdf">text</a>
             text
           </Trans>
         </p>

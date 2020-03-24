@@ -37,7 +37,7 @@ export default function Impressum() {
             <br />
             E-Mail:
             {' '}
-            <a href="mailto:help@quarantaenehelden.org" className="text-secondary hover:underline">help@quarantaenehelden.org</a>
+            <a href="mailto:help@quarantaenehelden.org" className="text-primary hover:opacity-50">help@quarantaenehelden.org</a>
           </p>
           <br />
           <p>

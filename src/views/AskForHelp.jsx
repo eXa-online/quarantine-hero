@@ -74,7 +74,7 @@ export default function AskForHelp() {
           {' '}
           {t('views.askForHelp.ifYouWantToGetNotified')}
           {' '}
-          <Link to="/notify-me" className="text-secondary hover:underline">
+          <Link to="/notify-me" className="text-primary hover:opacity-50">
             {t('views.askForHelp.thisFunction')}
           </Link>
           .
@@ -104,7 +104,7 @@ export default function AskForHelp() {
           {t('views.askForHelp.requestIsPublic')}
         </div>
         <div className="mt-4 w-full flex justify-end">
-          <button type="submit" className="btn-green w-full md:w-1/3">{t('views.askForHelp.askNow')}</button>
+          <button type="submit" className="btn-custom w-full md:w-1/3">{t('views.askForHelp.askNow')}</button>
         </div>
       </div>
       <Footer />

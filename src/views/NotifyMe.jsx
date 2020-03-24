@@ -59,7 +59,7 @@ export default function NotifyMe() {
       <form onSubmit={handleSubmit}>
         <LocationInput required onChange={handleChange} value={location} onSelect={handleSelect} />
         <MailInput className="input-focus my-6" placeholder={t('views.notifyMe.yourMail')} onSetEmail={setEmail} defaultValue={email} />
-        <button className="mt-6 btn-green w-full disabled:opacity-75 disabled:cursor-not-allowed" type="submit">
+        <button className="mt-6 btn-custom w-full disabled:opacity-75 disabled:cursor-not-allowed" type="submit">
           {t(
             'views.notifyMe.notifyMe',
             { location: (location && location !== '' ? `der Nähe von ${location}` : 'meiner Nähe') },

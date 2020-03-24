@@ -34,7 +34,7 @@ export default function DesktopMenu(props) {
   return (
     <>
       <div className="hidden md:flex justify-between relative">
-        <Link className="-ml-8 block -mt-12 max-logo" to="https://wwww.dierotenbullen.com">
+        <Link className="-ml-8 block -mt-12 max-logo" to="/">
           <img alt="logo" src={require('../assets/logo.svg')} />
         </Link>
         <Menu {...props} />

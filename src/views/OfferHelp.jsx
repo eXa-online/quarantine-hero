@@ -81,7 +81,7 @@ export default function OfferHelp() {
           {t('views.offerHelp.privacy')}
         </div>
         <div className="mt-4 m-1 w-full">
-          <button type="submit" className="btn-green w-full">{t('views.offerHelp.submit')}</button>
+          <button type="submit" className="btn-custom w-full">{t('views.offerHelp.submit')}</button>
         </div>
         <Footer />
       </form>
@@ -91,7 +91,7 @@ export default function OfferHelp() {
     <div className="mt-4 p-4 font-teaser">
       {t('views.offerHelp.alreadyOffline')}
       <div className="mt-4">
-        <Link to="/" className="btn-green-secondary block w-full">{t('views.offerHelp.helpSomeoneElse')}</Link>
+        <Link to="/" className="btn-custom-secondary block w-full">{t('views.offerHelp.helpSomeoneElse')}</Link>
       </div>
     </div>
   );

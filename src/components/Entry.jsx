@@ -91,7 +91,7 @@ export default function Entry(props) {
       {user && (user.uid === props.uid || user.uid === 'vm32E0DHv5OYz7tvAPgQst87NgJ2')
         ? (
           <div>
-            <button type="button" className="btn-green my-2" onClick={handleDelete}>{t('components.entry.deleteYourRequest')}</button>
+            <button type="button" className="btn-custom-secondary my-2" onClick={handleDelete}>{t('components.entry.deleteYourRequest')}</button>
           </div>
         ) : ''}
     </Link>

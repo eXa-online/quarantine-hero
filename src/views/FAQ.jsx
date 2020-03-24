@@ -47,7 +47,7 @@ export default function FAQ() {
       {/* This FAQ needs special treatment because of the link in it. */}
       <QA question={t('views.faq.howHelpPeopleWithoutInternet.question')}>
         {t('views.faq.howHelpPeopleWithoutInternet.answer.preLink')}
-        <a href="/assets/aushang.pdf" className="text-secondary hover:underline" download="/assets/aushang.pdf">
+        <a href="/assets/aushang.pdf" className="text-primary hover:opacity-50" download="/assets/aushang.pdf">
           {' '}
           {t('views.faq.howHelpPeopleWithoutInternet.answer.link')}
           {' '}
