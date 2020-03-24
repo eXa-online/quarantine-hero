@@ -52,21 +52,21 @@ export default function Main() {
         </div>
         <div className="m-4 md:m-0 md:mt-4 font-open-sans md:mb-4 pl-0 md:pr-4 flex flex-col justify-center md:flex-row bg-rb-grey py-4 md:pt-10">
           <div className="flex flex-1 px-3 justify-between items-center flex-row md:flex-col mt-4 md:mt-0 md:text-center">
-            <img className="pr-5 pl-2 md:pl-0 md:pr-0 md:mb-4 w-30 h-10 md:h-16" src={require('../assets/lokal.svg')} alt="" />
+            <img className="pr-5 pl-2 md:pl-0 md:pr-0 md:mb-4 w-16 h-10 md:h-16" src={require('../assets/lokal.svg')} alt="" />
             <div className="flex-grow">
               <div className="font-bold">{t('views.main.importantNotes.local.title')}</div>
               <p>{t('views.main.importantNotes.local.text')}</p>
             </div>
           </div>
           <div className="flex flex-1 px-3 justify-between items-center flex-row md:flex-col mt-4 md:mt-0  md:text-center">
-            <img className="pr-5 pl-2 md:pl-0 md:pr-0 md:mb-4 w-30 h-10 md:h-16" src={require('../assets/konsistent.svg')} alt="" />
+            <img className="pr-5 pl-2 md:pl-0 md:pr-0 md:mb-4 w-16 h-10 md:h-16" src={require('../assets/konsistent.svg')} alt="" />
             <div className="flex-grow">
               <div className="font-bold">{t('views.main.importantNotes.consistent.title')}</div>
               <p>{t('views.main.importantNotes.consistent.text')}</p>
             </div>
           </div>
           <div className="flex flex-1 px-3 justify-between items-center flex-row md:flex-col mt-4 md:mt-0 md:text-center">
-            <img className="pr-5 pl-2 md:pl-0 md:pr-0 md:mb-4 w-30 h-10 md:h-16" src={require('../assets/distanziert.svg')} alt="" />
+            <img className="pr-5 pl-2 md:pl-0 md:pr-0 md:mb-4 w-16 h-10 md:h-16" src={require('../assets/distanziert.svg')} alt="" />
             <div className="flex-grow">
               <div className="font-bold">{t('views.main.importantNotes.distanced.title')}</div>
               <p>
@@ -84,8 +84,8 @@ export default function Main() {
           </div>
         </div>
 
-        <div className="mt-4 md:ml-0 md:mr-0 ml-4 mr-4 mb-8 md:mb-16 p-4 flex flex-row md:flex-row justify-start items-center bg-rb-grey">
-          <img className="w-30 h-10 md:h-16 mr-4" src={require('../assets/aushang.svg')} alt="" />
+        <div className="mt-4 md:ml-0 md:mr-0 ml-4 mr-4 mb-8 md:mb-16 py-4 px-3 flex flex-row md:flex-row justify-start items-center bg-rb-grey">
+          <img className="w-16 h-10 md:h-16 md:mr-4" src={require('../assets/aushang.svg')} alt="" />
           <p>
             {t('views.main.noInternet.preOptionalBreak')}
             {' '}
