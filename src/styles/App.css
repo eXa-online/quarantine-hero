@@ -44,7 +44,7 @@
 }
 
 .angle-cut-background {
-    background: #f9f7f0;
+    background: #fafafa;
     position: relative;
 }
 @media (min-width: 835px) {
@@ -71,6 +71,11 @@
 .bg-kaki {
     background-color: #f9f7f0;
 }
+.bg-rb-grey {
+    background-color: #fafafa;
+}
+.bg-rb-transition {
+}
 .logo-margin {
     margin-left: -30px;
 }
@@ -85,4 +90,9 @@
 
 .entry:hover {
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 0 5px 0 rgba(0, 0, 0, 0.2);
+}
+
+.bg-image-net {
+    background: linear-gradient(#aa0437,#0c2044 100%);
+    background-attachment: fixed;
 }

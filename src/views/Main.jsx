@@ -50,7 +50,7 @@ export default function Main() {
             {t('views.main.importantNotes.title')}
           </div>
         </div>
-        <div className="m-4 md:m-0 md:mt-4 font-open-sans md:mb-4 pl-0 md:pr-4 flex flex-col justify-center md:flex-row bg-kaki py-4 md:pt-10">
+        <div className="m-4 md:m-0 md:mt-4 font-open-sans md:mb-4 pl-0 md:pr-4 flex flex-col justify-center md:flex-row bg-rb-grey py-4 md:pt-10">
           <div className="flex flex-1 px-3 justify-between items-center flex-row md:flex-col mt-4 md:mt-0 md:text-center">
             <img className="pr-5 pl-2 md:pl-0 md:pr-0 md:mb-4 w-30 h-10 md:h-16" src={require('../assets/lokal.svg')} alt="" />
             <div className="flex-grow">
@@ -78,13 +78,13 @@ export default function Main() {
                   {t('views.main.importantNotes.distanced.textBold')}
                 </span>
                 {' '}
-                {t('views.main.importantNotes.distanced.textBold')}
+                {t('views.main.importantNotes.distanced.textPostBold')}
               </p>
             </div>
           </div>
         </div>
 
-        <div className="mt-4 md:ml-0 md:mr-0 ml-4 mr-4 mb-8 md:mb-16 p-4 flex flex-row md:flex-row justify-start items-center bg-kaki">
+        <div className="mt-4 md:ml-0 md:mr-0 ml-4 mr-4 mb-8 md:mb-16 p-4 flex flex-row md:flex-row justify-start items-center bg-rb-grey">
           <img className="w-30 h-10 md:h-16 mr-4" src={require('../assets/aushang.svg')} alt="" />
           <p>
             {t('views.main.noInternet.preOptionalBreak')}
@@ -105,7 +105,6 @@ export default function Main() {
             className="flex justify-center items-center rounded text-white py-3 pl-1 pr-3 btn-main bg-secondary md:flex-1 hover:opacity-75"
             onClick={() => fb.analytics.logEvent('button_want_to_help')}
           >
-            <img className="w-8 mr-1" src={require('../assets/hero.png')} alt="" />
             {t('views.main.buttons.wantToHelp')}
           </Link>
           <div className="m-1 md:m-4" />
@@ -114,7 +113,6 @@ export default function Main() {
             className="flex justify-center items-center rounded text-white py-3 pl-1 px-3 btn-main bg-primary md:flex-1 hover:opacity-75"
             onClick={() => fb.analytics.logEvent('button_need_help')}
           >
-            <img className="w-8" src={require('../assets/need_help.png')} alt="" />
             {t('views.main.buttons.needHelp')}
           </Link>
         </div>

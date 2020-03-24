@@ -69,7 +69,7 @@ export default function AskForHelp() {
       <h1 className="font-teaser py-4 pt-10">{t('views.askForHelp.createRequest')}</h1>
       <div className="font-open-sans">
         {t('views.askForHelp.whenSomeoneWantsToHelpExplanation')}
-        <div className=" w-full p-4 bg-kaki mt-4">
+        <div className=" w-full p-4 bg-rb-grey mt-4">
           <strong>{t('views.askForHelp.noRequestsHere')}</strong>
           {' '}
           {t('views.askForHelp.ifYouWantToGetNotified')}

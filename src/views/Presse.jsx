@@ -3,7 +3,7 @@ import Footer from '../components/Footer';
 
 export default function Presse() {
   const Article = (props) => (
-    <div className="bg-kaki p-4 mb-4 mt-4 font-open-sans w-full">
+    <div className="bg-rb-grey p-4 mb-4 mt-4 font-open-sans w-full">
       <div className="text-xs text-gray-700">{props.date}</div>
       <div className="font-bold">{props.title}</div>
       {props.link
@@ -96,7 +96,7 @@ export default function Presse() {
           unterstützen.
           Hier findet ihr aktuelle Artikel und Nachrichten.
         </div>
-        <div className="bg-kaki p-4 mb-10 mt-8 font-open-sans flex">
+        <div className="bg-rb-grey p-4 mb-10 mt-8 font-open-sans flex">
           <div>
             <img src={require('../assets/clipboard.svg')} alt="Clipboard" className="w-12 mr-4" />
           </div>
@@ -153,7 +153,7 @@ export default function Presse() {
           </div>
         </div>
         {articles.map((article) => <Article {...article} key={article.link} />)}
-        <div className="bg-kaki p-4 mb-4 mt-4 font-open-sans w-full text-center">
+        <div className="bg-rb-grey p-4 mb-4 mt-4 font-open-sans w-full text-center">
           <div className="font-bold">Und viele mehr!</div>
         </div>
         <Footer />

@@ -29,7 +29,6 @@ import CompleteOfferHelp from './views/CompleteOfferHelp';
 import NotifyMe from './views/NotifyMe';
 import ScrollToTop from './components/ScrollToTop';
 import ShareButtons from './components/ShareButtons';
-import Presse from './views/Presse';
 import createEventListener from './util/createEventListener';
 
 function App(props) {
@@ -62,20 +61,22 @@ function App(props) {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <div className="flex items-center min-h-screen flex-col bg-kaki">
+    <div className="flex items-center min-h-screen flex-col bg-rb-transition relative">
+      <div className="bg-image-net absolute inset-0 bg-fixed">
+        <img className="bg-image-net-img fixed opacity-25" src="https://www.dierotenbullen.com/images/0010/1/1800/1200/805/rbl//2017/2/2/ebbb4092aa9694ec9aabe2ee143b4067.png" />
+      </div>
       <Router>
-        <div className="hidden md:flex justify-end md:mt-12 w-full phone-width items-center">
+        <div className="hidden md:flex justify-end md:mt-12 w-full phone-width items-center relative">
           {!user
-          && <Link className="mr-4 font-open-sans text-gray-700" to="/signup/dashboard">{t('App.login')}</Link>}
-          <Link className="mr-4 font-open-sans text-gray-700" to="/presse">{t('App.press')}</Link>
+          && <Link className="mr-2 text-white font-main opacity-100 hover:opacity-50" to="/signup/dashboard">{t('App.login')}</Link>}
           <ShareButtons />
         </div>
-        <div className="phone-width bg-white shadow-xl min-h-screen md:mt-6">
+        <div className="phone-width bg-white shadow-xl min-h-screen md:mt-6 relative">
           <ScrollToTop />
           <DesktopMenu isLoggedIn={user} signOut={signOut} />
           <div className="md:px-16 overflow-hidden">
-            <div style={{ zIndex: 101 }} className="visible md:invisible h-16 w-full fixed top-0 bg-white flex flex-row justify-between w-full items-center pr-5">
-              <Link to="/" className="font-main ml-4" style={{ fontWeight: '600' }}>
+            <div style={{ zIndex: 101 }} className="visible md:invisible h-16 w-full fixed top-0 bg-white flex flex-row justify-between w-full items-center pr-5 border-b-2">
+              <Link to="https://www.dierotenbullen.com" className="font-main ml-4" style={{ fontWeight: '600' }}>
                 <div className="font-ntf text-primary">DIEROTENBULLEN.COM</div>
               </Link>
               <div>
@@ -120,9 +121,6 @@ function App(props) {
                 </Route>
                 <Route path="/dsgvo">
                   <DSGVO />
-                </Route>
-                <Route path="/presse">
-                  <Presse />
                 </Route>
                 <Route path="/notify-me">
                   <NotifyMe />
