@@ -17,7 +17,7 @@ export default function Sidebar(props) {
   }
 
   const MenuItem = (menuItemProps) => (
-    <li className="py-1 hover:opacity-75">
+    <li className="py-1 hover:opacity-50">
       <Link
         className="py-2 block"
         onClick={() => {
@@ -55,7 +55,7 @@ export default function Sidebar(props) {
 
       {menuProps.isLoggedIn
         ? <MenuItem to="/" onClick={menuProps.signOut}>t('components.sidebar.signOut')</MenuItem>
-        : <MenuItem to="/signup/dashboard">t('components.sidebar.login')</MenuItem>}
+        : <MenuItem to="/signup/dashboard">{t('components.sidebar.login')}</MenuItem>}
 
       <div className="mt-4">
         <ShareButtons />

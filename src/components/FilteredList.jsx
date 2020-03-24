@@ -172,7 +172,7 @@ export default function FilteredList(props) {
         )}
         {(pageSize > 0 && !searching) ? (
           <div className="flex justify-center pt-3">
-            <button type="button" onClick={loadMore} className="items-center rounded py-3 px-6 btn-main btn-gray md:flex-1 hover:opacity-75">
+            <button type="button" onClick={loadMore} className="items-center rounded py-3 px-6 btn-main btn-gray md:flex-1 hover:opacity-50">
               {t('components.filteredList.showMore')}
             </button>
           </div>

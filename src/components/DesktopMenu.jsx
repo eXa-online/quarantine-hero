@@ -7,7 +7,7 @@ export default function DesktopMenu(props) {
   const { t } = useTranslation();
 
   const MenuItem = (menuItemProps) => (
-    <li className="mr-6 hover:opacity-75">
+    <li className="mr-6 hover:opacity-50">
       <Link to={menuItemProps.to} onClick={menuItemProps.onClick}>{menuItemProps.children}</Link>
     </li>
   );
@@ -34,7 +34,7 @@ export default function DesktopMenu(props) {
   return (
     <>
       <div className="hidden md:flex justify-between relative">
-        <Link className="-ml-8 block -mt-12 max-logo" to="/">
+        <Link className="-ml-8 block -mt-12 max-logo" to="https://wwww.dierotenbullen.com">
           <img alt="logo" src={require('../assets/logo.svg')} />
         </Link>
         <Menu {...props} />

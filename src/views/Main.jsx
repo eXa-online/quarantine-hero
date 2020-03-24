@@ -92,7 +92,7 @@ export default function Main() {
             <br className="sm:hidden" />
             {t('views.main.noInternet.preLink')}
             {' '}
-            <a href="/assets/aushang.pdf" className="text-primary hover:underline" download="/assets/aushang.pdf">{t('views.main.noInternet.link')}</a>
+            <a href="/assets/aushang.pdf" className="text-primary hover:opacity-50" download="/assets/aushang.pdf">{t('views.main.noInternet.link')}</a>
             {t('views.main.noInternet.postLink')}
           </p>
         </div>
@@ -102,7 +102,7 @@ export default function Main() {
         <div className="flex justify-around my-6 px-2 md:px-0 md:my-10 w-full" id="hilfe-buttons">
           <Link
             to="/overview"
-            className="flex justify-center items-center rounded text-white py-3 pl-1 pr-3 btn-main bg-secondary md:flex-1 hover:opacity-75"
+            className="flex justify-center items-center rounded text-white py-3 pl-1 pr-3 btn-main bg-secondary md:flex-1 hover:opacity-50"
             onClick={() => fb.analytics.logEvent('button_want_to_help')}
           >
             {t('views.main.buttons.wantToHelp')}
@@ -110,7 +110,7 @@ export default function Main() {
           <div className="m-1 md:m-4" />
           <Link
             to="/signup"
-            className="flex justify-center items-center rounded text-white py-3 pl-1 px-3 btn-main bg-primary md:flex-1 hover:opacity-75"
+            className="flex justify-center items-center rounded text-white py-3 pl-1 px-3 btn-main bg-primary md:flex-1 hover:opacity-50"
             onClick={() => fb.analytics.logEvent('button_need_help')}
           >
             {t('views.main.buttons.needHelp')}

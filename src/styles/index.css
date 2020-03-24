@@ -58,7 +58,7 @@
     margin-left: 10px;
 }
 .btn-green:hover {
-    opacity: 0.75;
+    opacity: 0.5;
 }
 
 .btn-green-secondary {
@@ -81,7 +81,7 @@
     margin-left: 10px;
 }
 .btn-green-secondary:hover {
-    opacity: 0.75;
+    opacity: 0.5;
 }
 
 .input-focus {
