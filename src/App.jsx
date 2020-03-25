@@ -68,6 +68,7 @@ function App(props) {
       </div>
       <Router>
         <div className="hidden md:flex justify-end md:mt-12 w-full phone-width items-center relative">
+          <a href="https://www.dierotenbullen.com" className="mr-8 text-white font-main opacity-100 hover:opacity-50" target="_blank" rel="noreferrer noopener">{t('components.desktopMenu.homepageUrl')}</a>
           {!user
           && <Link className="mr-2 text-white font-main opacity-100 hover:opacity-50" to="/signup/dashboard">{t('App.login')}</Link>}
           <ShareButtons />
