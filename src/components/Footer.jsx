@@ -14,6 +14,8 @@ export default function Footer() {
         <a href="https://policies.redbull.com/r/Rasenballsport_Leipzig/privacy/de" rel="noopener noreferrer" target="_blank">{t('components.footer.privacy')}</a>
         <div className="mx-1">|</div>
         <Link to="/disclaimer">{t('components.footer.disclaimer')}</Link>
+        <div className="mx-1">|</div>
+        <a href="https://github.com/eXa-online/quarantine-hero" rel="noopener noreferrer" target="_blank">{t('components.footer.source')}</a>
       </div>
       <span className="text-gray-500 text-xs block w-full text-center">{t('components.footer.forEveryone')}</span>
     </div>
