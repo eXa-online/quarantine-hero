@@ -89,8 +89,6 @@
     "faq": {
       "title": "Hier werden deine wichtigsten Fragen beantwortet!",
       "questions": {
-        "1": "ICH MÖCHTE HELFEN",
-        "2": "ICH BRAUCHE HILFE",
         "4": "Was möchte RB Leipzig mit www.WirAlle-RBL.com bezwecken?",
         "5": "Wie wird der Kontakt zwischen Helfern und Hilfebedürftigen hergestellt?",
         "6": "Welche Hilfe-Anfragen können gestellt werden?",
@@ -103,8 +101,6 @@
         "13": "Gerade ältere Menschen haben kein Internet. Wie werden diese auf www.WirAlle-RBL.com aufmerksam?"
       },
       "answers": {
-        "1": "Viele Menschen befinden sich aktuell freiwillig oder notwendigerweise in häuslicher Quarantäne bzw. sind in der Bewältigung des Alltages sehr eingeschränkt.\n Klickt auf den Button und checkt, wo ihr wem in welcher Form helfen könnt.",
-        "2": "Ihr seid aufgrund der gegenwärtigen Situation auf Unterstützung angewiesen? Dann klickt auf den Button und gebt Bescheid, wobei ihr Hilfe braucht und wie man euch am besten unterstützen kann",
         "4": "Wir wollen eine Plattform bieten, auf der ihr euch in dieser schwierigen Phase austauschen könnt. Ihr könnt um Unterstützung im Alltag bitten und vor allem natürlich auch eure Unterstützung anbieten. Dadurch wollen wir vor allem Menschen helfen, die in der aktuell eingeschränkten Lebenssituation durch Hilfe benötigen (z.B. ihr Zuhause nicht verlassen können).",
         "5": "Ihr könnt euch über die Plattform anzeigen lassen, wer in eurer Nähe eine Hilfe-Anfrage gestellt hat und direkt auf diese Nachricht antworten. Wir übernehmen die Weiterleitung der Nachricht an die Person, die um Hilfe gebeten hat, die sich dann bei euch melden kann. Alle Details der Unterstützung besprecht ihr im direkten Austausch.",
         "6": "Es geht um Anfragen für das Alltagsleben, die durch die aktuelle Situation nicht mehr bewältigt werden können: Einkauf von Lebensmitteln, der Gang zur Post, die Dokumentabgabe bei Ämtern, aber auch sozial-gesellschaftliche Anfragen für z.B. die Koordination eines gemeinsamen Engagements oder der interaktive digitale Austausch.",
@@ -165,7 +161,7 @@
       "askForHelp": "Ich brauche Hilfe",
       "overview": "Ich möchte helfen",
       "yourOverview": "Deine Übersicht",
-      "FAQs": "FAQs",
+      "FAQs": "FAQ",
       "press": "Presse",
       "legal": "Impressum",
       "disclaimer": "Disclaimer",

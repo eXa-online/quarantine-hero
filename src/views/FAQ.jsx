@@ -13,10 +13,6 @@ export default function FAQ() {
   const { t } = useTranslation();
 
   const faqTranslationPartOne = [
-    '1',
-    '2'
-  ];
-  const faqTranslationPartTwo = [
     '4',
     '5',
     '6',
@@ -40,7 +36,6 @@ export default function FAQ() {
       <h1 className="text-2xl font-main mt-8">{t('views.faq.title')}</h1>
 
       {buildFAQs(faqTranslationPartOne)}
-
       {/* This FAQ needs special treatment because of the link in it. */}
       <QA question={t('views.faq.3.question')}>
         {t('views.faq.3.answer.preLink')}
@@ -51,7 +46,6 @@ export default function FAQ() {
         </a>
         {t('views.faq.3.answer.postLink')}
       </QA>
-      {buildFAQs(faqTranslationPartTwo)}
 
       <Footer />
     </div>
