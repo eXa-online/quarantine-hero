@@ -197,8 +197,8 @@
       "showMore": "Weitere anzeigen..."
     },
     "locationInput": {
-      "yourPostalCodeOrNeighbourhood": "Deine Postleitzahl oder Nachbarschaft...",
-      "yourPostalCode": "Deine Postleitzahl oder Nachbarschaft..."
+      "yourPostalCodeOrNeighbourhood": "Postleitzahl...",
+      "yourPostalCode": "Postleitzahl..."
     }
   }
 }
