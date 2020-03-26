@@ -171,14 +171,15 @@
       "disclaimer": "Disclaimer",
       "privacy": "Datenschutz",
       "login": "Login",
-      "signOut": "Abmelden"
+      "signOut": "Abmelden",
+      "homepage": "DieRotenBullen.com"
     },
     "footer": {
       "FAQs": "FAQs",
       "disclaimer": "Disclaimer",
       "legal": "Impressum",
       "privacy": "Datenschutz",
-      "forEveryone": "© 2020 RasenBallsport Leipzig.",
+      "forEveryone": "",
       "source": "Source Code"
     },
     "entry": {

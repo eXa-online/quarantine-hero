@@ -66,6 +66,7 @@ export default function Sidebar(props) {
       <MenuItem to="https://policies.redbull.com/r/Rasenballsport_Leipzig/imprint/de" type="extern">{t('components.sidebar.legal')}</MenuItem>
       <MenuItem to="https://policies.redbull.com/r/Rasenballsport_Leipzig/privacy/de" type="extern">{t('components.sidebar.privacy')}</MenuItem>
       <MenuItem to="/disclaimer">{t('components.sidebar.disclaimer')}</MenuItem>
+      <MenuItem to="https://www.dierotenbullen.com" type="extern">{t('components.sidebar.homepage')}</MenuItem>
 
       {menuProps.isLoggedIn
         ? <MenuItem to="/" onClick={menuProps.signOut}>t('components.sidebar.signOut')</MenuItem>

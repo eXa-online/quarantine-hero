@@ -78,9 +78,9 @@ function App(props) {
           <DesktopMenu isLoggedIn={user} signOut={signOut} />
           <div className="md:px-16 overflow-hidden">
             <div style={{ zIndex: 101 }} className="visible md:invisible h-16 w-full fixed top-0 bg-white flex flex-row justify-between w-full items-center pr-5 border-b-2">
-              <a href="https://www.dierotenbullen.com" target="_blank" rel="noopener noreferrer" className="font-main ml-4" style={{ fontWeight: '600' }}>
-                <div className="font-ntf text-primary">DIEROTENBULLEN.COM</div>
-              </a>
+              <Link className="w-20 " to="/">
+                <img alt="logo" src={require('./assets/logo.svg')} />
+              </Link>
               <div>
                 <MenuIcon style={{ fontSize: '40px' }} className="text-gray-600" onClick={() => setMenuOpen(true)} />
               </div>

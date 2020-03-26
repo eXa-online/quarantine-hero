@@ -26,11 +26,10 @@
 }
 
 .btn-main {
-    font-family: 'NTF-Grand', sans-serif;
-    font-size: 20px;
+    font-family: 'BullText', sans-serif;
+    font-size: 16px;
     font-weight: bold;
-    font-stretch: condensed;
-    letter-spacing: 1px;
+    letter-spacing: 0x;
 }
 
 .btn-gray {

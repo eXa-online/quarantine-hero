@@ -34,10 +34,7 @@ export default function Main() {
   return (
     <div className="flex items-center flex-col">
       <div className="phone-width">
-        <div className="font-main flex md:hidden text-white ">
-          <img className="logo-margin max-logo" src={(require('../assets/logo.svg'))} alt="logo" />
-        </div>
-        <div className="flex text-center font-teaser justify-center w-full my-8 md:my-10">
+        <div className="flex text-center font-teaser justify-center w-full my-8 md:my-10 px-4">
           {t('views.main.weAreHumans')}
           <br />
           <br />
@@ -96,7 +93,7 @@ export default function Main() {
         <div className="flex justify-around my-6 px-2 md:px-0 md:my-10 w-full" id="hilfe-buttons">
           <Link
             to="/overview"
-            className="flex justify-center items-center rounded text-white py-3 pl-1 pr-3 btn-main bg-secondary md:flex-1 hover:opacity-50"
+            className="flex justify-center items-center rounded text-white py-3 px-2 btn-main bg-secondary md:flex-1 hover:opacity-50"
             onClick={() => fb.analytics.logEvent('button_want_to_help')}
           >
             {t('views.main.buttons.wantToHelp')}
@@ -104,7 +101,7 @@ export default function Main() {
           <div className="m-1 md:m-4" />
           <Link
             to="/signup"
-            className="flex justify-center items-center rounded text-white py-3 pl-1 px-3 btn-main bg-primary md:flex-1 hover:opacity-50"
+            className="flex justify-center items-center rounded text-white py-3 px-2 btn-main bg-primary md:flex-1 hover:opacity-50"
             onClick={() => fb.analytics.logEvent('button_need_help')}
           >
             {t('views.main.buttons.needHelp')}
