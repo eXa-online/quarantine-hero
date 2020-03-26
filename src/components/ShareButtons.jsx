@@ -1,6 +1,9 @@
 import React from 'react';
 
-export default function ShareButtons() {
+export default function ShareButtons(props) {
+  const { type } = props;
+  const facebookIconPath = type === 'dark' ? require('../assets/icon_facebook_black.svg') : require('../assets/icon_facebook.svg');
+  const twitterIconPath = type === 'dark' ? require('../assets/icon_twitter_black.svg') : require('../assets/icon_twitter.svg');
   return (
     <div className="flex item">
       <div className="ml-2 cursor-pointer">
@@ -10,7 +13,7 @@ export default function ShareButtons() {
           rel="noreferrer noopener"
           title="Facebook"
         >
-          <img alt="facebook" src={require('../assets/icon_facebook.svg')} className="w-8 opacity-100 hover:opacity-50 transition-all duration-200" />
+          <img alt="facebook" src={facebookIconPath} className="w-8 opacity-100 hover:opacity-50 transition-all duration-200" />
         </a>
       </div>
       <div className="mx-2 cursor-pointer">
@@ -20,7 +23,7 @@ export default function ShareButtons() {
           rel="noreferrer noopener"
           title="Twitter"
         >
-          <img alt="twitter" src={require('../assets/icon_twitter.svg')} className="w-8 opacity-100 hover:opacity-50 transition-all duration-200" />
+          <img alt="twitter" src={twitterIconPath} className="w-8 opacity-100 hover:opacity-50 transition-all duration-200" />
         </a>
       </div>
       {/*<div className="mx-2 cursor-pointer">*/}

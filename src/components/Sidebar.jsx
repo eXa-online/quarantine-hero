@@ -73,7 +73,7 @@ export default function Sidebar(props) {
         : <MenuItem to="/signup/dashboard">{t('components.sidebar.login')}</MenuItem>}
 
       <div className="mt-4">
-        <ShareButtons />
+        <ShareButtons type="dark" />
       </div>
     </ul>
   );
