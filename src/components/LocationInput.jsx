@@ -54,7 +54,7 @@ export default function LocationInput(props) {
   }
   return (
     <div className="w-full">
-      <input required={props.required} type="number" className="input-focus" maxLength={5} max={99999} placeholder={t('components.locationInput.yourPostalCode')} onChange={(e) => props.onChange(e.target.value)} />
+      <input required={props.required} type="text" className="input-focus" maxLength={5} max={99999} placeholder={t('components.locationInput.yourPostalCode')} onChange={(e) => props.onChange(e.target.value)} />
     </div>
   );
 }
