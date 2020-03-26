@@ -35,8 +35,8 @@
         "needHelp": "ICH BRAUCHE HILFE"
       },
       "explanations": {
-        "wantToHelp": "Viele Menschen befinden sich aktuell freiwillig oder notwendigerweise in <strong>häuslicher Quarantäne</strong>. Wenn ihr diesen Menschen helfen wollt, könnt ihr hier sehen, wobei ihr eure Mitmenschen in eurer Nachbarschaft unterstützen könnt!",
-        "needHelp": "Wenn ihr gerade in häuslicher Quarantäne seid und Unterstützung bei <strong>Einkäufen</strong>, <strong>Botengängen</strong> oder <strong>Gassigehen</strong> mit dem Hund benötigt könnt ihr das hier euren Mitmenschen mitteilen!"
+        "wantToHelp": "Klickt auf den Button um zu sehen, wo und wie ihr Menschen in der aktuellen Situation am besten unterstützen könnt.",
+        "needHelp": "Wenn ihr auf Hilfe benötigt, könnt ihr unter diesem Button angeben, wie und wobei man euch helfen kann."
       },
       "recentRequests": {
         "title": "Aktuelle Anfragen",
