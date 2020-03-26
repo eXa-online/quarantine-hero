@@ -6,31 +6,29 @@
   },
   "views": {
     "main": {
-      "weAreHumans": "Wir sind Menschen.",
-      "inTimesOfNeed": "In Zeiten der Not helfen wir uns.",
-      "bePart": "Sei ein Teil davon.",
+      "weAreHumans": "Was ist in diesen Zeiten wichtiger als Fußball? WIR ALLE.",
+      "inTimesOfNeed": "Und deshalb möchten wir mit dieser Plattform eine einfache und schnelle Möglichkeit schaffen, wie wir uns gegenseitig helfen können.",
+      "bePart": "Eine Stadt. Ein Team.",
       "importantNotes": {
         "title": "WICHTIGER HINWEIS",
         "local": {
           "title": "Lokal",
-          "text": "Helft in eurer Nachbarschaft, zum Beispiel euren Haus-Mitbewohner*innen."
+          "text": "Helft euren Nachbarn, den Menschen in eurem Viertel oder eurer Stadt."
         },
         "consistent": {
           "title": "Konsistent",
-          "text": "Helft wenigen, aber das konsistent. Sucht euch zum Beispiel eine Familie und helft nur dieser."
+          "text": "Ihr müsst nicht allen helfen. Es reicht eine Person oder eine Familie, die ihr unterstützen könnt."
         },
         "distanced": {
           "title": "Distanziert",
-          "textPreBold": "Trefft euch nicht mit anderen Menschen außer denen, denen ihr helfen wollt und habt",
-          "textBold": "KEINEN",
-          "textPostBold": "Kontakt mit Personen in Quarantäne!"
+          "textPreBold": "Eure Gesundheit darf nicht gefährdet sein. Habt deshalb keinen Kontakt mit Menschen in Quarantäne und haltet euch an die aktuellen Vorgaben zum Zusammenkommen mit anderen."
         }
       },
       "noInternet": {
-        "preOptionalBreak": "Nicht jeder Mensch hat Internet.",
-        "preLink": "Drucke",
-        "link": "diesen Aushang",
-        "postLink": "."
+        "preOptionalBreak": "Für Bedürftige ohne Internet:",
+        "preLink": "",
+        "link": "Ausdrucken. Aufhängen. Hilfe anbieten",
+        "postLink": ""
       },
       "buttons": {
         "wantToHelp": "ICH MÖCHTE HELFEN",
@@ -91,43 +89,39 @@
     "faq": {
       "title": "Hier werden deine wichtigsten Fragen beantwortet!",
       "questions": {
-        "howDoesItWork": "Wie funktioniert quarantänehelden.org?",
-        "whichKindOfRequests": "Welche Art von Anfragen kann ich stellen?",
-        "howToPay": "Wie wird für den Einkauf bezahlt?",
-        "howToBeSureMoney": "Wie stelle ich sicher, dass ich für einen Einkauf auch das Geld bekomme? Wie kann ich sicher sein, dass ich für mein Geld auch die angefragten Einkäufe bekomme?",
-        "whoCanSeeRequests": "Wer kann meine Hilfeanfrage sehen?",
-        "howContact": "Wie nehmen Helfende Kontakt zu mir auf?",
-        "whatToConsider": "Was ist bei einer Übergabe z.B. von Einkäufen zu beachten?",
-        "doIGetPaid": "Werde ich dafür bezahlt?",
-        "whatAboutSafety": "Was ist mit meiner Sicherheit?",
-        "whyShouldI": "Wieso soll ich das tun?",
-        "howDoIKnowQuarantine": "Wie weiß ich, dass die Person wirklich in Quarantäne ist?",
-        "howCanIHelp": "Wie kann ich Quarantänehelden unterstützen?",
-        "whoAreYou": "Wer seid ihr?",
-        "howIsDataUsed": "Wie werden Daten verwendet?"
+        "1": "ICH MÖCHTE HELFEN",
+        "2": "ICH BRAUCHE HILFE",
+        "4": "Was möchte RB Leipzig mit www.WirAlle-RBL.com bezwecken?",
+        "5": "Wie wird der Kontakt zwischen Helfern und Hilfebedürftigen hergestellt?",
+        "6": "Welche Hilfe-Anfragen können gestellt werden?",
+        "7": "Sind die Hilfeanfragen öffentlich?",
+        "8": "Wie läuft z.B. die Bezahlung von Einkäufen ab?",
+        "9": "Gibt es eine Sicherheit, dass das Geld für den Einkauf auch bezahlt wird?",
+        "10": "Wie erfolgt die Übergabe von Einkäufen, Paketen o.ä.?",
+        "11": "Bekommt man Geld für eine Hilfeleistung?",
+        "12": "Wird gecheckt, ob jemand tatsächlich Hilfe braucht?",
+        "13": "Gerade ältere Menschen haben kein Internet. Wie werden diese auf www.WirAlle-RBL.com aufmerksam?"
       },
       "answers": {
-        "howDoesItWork": "Auf der Plattform quarantänehelden.org kommen Menschen zusammen, die sich gegenseitig unterstützen. Hier findest du Anfragen von Personen, die etwas benötigen, aber selbst ihr Zuhause oder ihren Quarantäne-Ort\n        nicht verlassen können. Du kannst dir Anfragen in deiner Nähe anzeigen lassen und diese beantworten. Wir leiten deine Nachricht an den/die Anfragensteller*in weiter, die dann zu dir Kontakt aufnehmen. Dann könnt ihr alle weiteren Details zur Anfrage (was wird benötigt, wann und wo?) klären.",
-        "whichKindOfRequests": "Prinzipiell können alle Anfragen gestellt werden, bei denen Hilfe von außen benötigt wird. Das kann ein Einkauf der nötigsten Lebensmittel, ein Botengang oder eine Erledigung sein.",
-        "howToPay": "Handelt es sich bei der Anfrage um einen Einkauf, könnt ihr selbst ausmachen, wie ihr die Bezahlung des Einkaufs handhabt. Eine Möglichkeit wäre, das Geld über Paypal zu senden.",
-        "howToBeSureMoney": "Diese Plattform funktioniert auf Vertrauensbasis. Quarantänehelden kann für die eingestellten Anfragen keine Haftung übernehmen. Bitte sprecht euch vorher gut ab und entscheidet selbst, ob ihr eine Anfrage bearbeiten wollt. Ihr könnt zum Beispiel eure Telefonnummern tauschen. Telefonisch können Absprachen besser getroffen werden. Um Missbrauch zu verhindern, appellieren wir an euren Menschenverstand und eure Ehrlichkeit.",
-        "whoCanSeeRequests": "Deine Anfrage und ein ungefährer Ort sind öffentlich einsehbar. Dein Name und deine Emailadresse sind nicht einsehbar.",
-        "howContact": "Helfende können www.quarantaenehelden.org nach Anfragen in ihrer Nähe suchen. Die ausgewählte Anfrage wird angeklickt. Über ein Formular geht eine Email an die Person in Quarantäne. Sie erhält so eine Nachricht von dir und ihr könnt alles weitere verabreden.",
-        "whatToConsider": "Bitte achtet bei einer Übergabe darauf, dass es keinen Kontakt zwischen einer Person in Quarantäne und der helfenden Person gibt. Ihr könnt zum Beispiel etwas vor die Tür legen und dann anrufen, dass es da ist.",
-        "doIGetPaid": "Nein. Das Helfen findet auf freiwilliger Basis statt.",
-        "whatAboutSafety": "Bitte stelle stets deine eigene Sicherheit an erste Stelle und vermeide direkten Kontakt zu Menschen in der Quarantäne.",
-        "whyShouldI": "Wir sind eine Gemeinschaft. Besonders in schwierigen Zeiten müssen wir zusammenhalten. Hilf deiner Nachbarschaft in ihrer schwierigen Quarantäne-Situation. Du trägst so auch dazu bei, die Verbreitung des Virus‘ einzuschränken.",
-        "howDoIKnowQuarantine": "Unsere Plattform funktioniert nur über die Ehrlichkeit der Nutzenden. Wenn du dir unsicher bist, kannst du das dem Anfragesteller mitteilen und zum Beispiel ein Attest erfragen.",
-        "howCanIHelp": "Schau einfach mal, ob eine Person in deinem Umfeld Hilfe benötigt!",
-        "whoAreYou": "Wir sind Andy, Florian, Henrike, Jakob, Julia, Keno, Nicolai, Milena, Philipp und Sophie, eine Gruppe von Freunden, die mit diesem Projekt ihren kleinen Beitrag leisten und Menschen helfen möchten.",
-        "howIsDataUsed": "Wenn du eine Anfrage stellst, wird diese öffentlich (ohne deine E-Mail) an alle Nutzer gezeigt. \n Wenn Du eine Anfrage beantwortest, wird deine Antwort und deine E-Mail Adresse an den Anfragensteller geschickt."
+        "1": "Viele Menschen befinden sich aktuell freiwillig oder notwendigerweise in häuslicher Quarantäne bzw. sind in der Bewältigung des Alltages sehr eingeschränkt.\n Klickt auf den Button und checkt, wo ihr wem in welcher Form helfen könnt.",
+        "2": "Ihr seid aufgrund der gegenwärtigen Situation auf Unterstützung angewiesen? Dann klickt auf den Button und gebt Bescheid, wobei ihr Hilfe braucht und wie man euch am besten unterstützen kann",
+        "4": "Wir wollen eine Plattform bieten, auf der ihr euch in dieser schwierigen Phase austauschen könnt. Ihr könnt um Unterstützung im Alltag bitten und vor allem natürlich auch eure Unterstützung anbieten. Dadurch wollen wir vor allem Menschen helfen, die in der aktuell eingeschränkten Lebenssituation durch Hilfe benötigen (z.B. ihr Zuhause nicht verlassen können).",
+        "5": "Ihr könnt euch über die Plattform anzeigen lassen, wer in eurer Nähe eine Hilfe-Anfrage gestellt hat und direkt auf diese Nachricht antworten. Wir übernehmen die Weiterleitung der Nachricht an die Person, die um Hilfe gebeten hat, die sich dann bei euch melden kann. Alle Details der Unterstützung besprecht ihr im direkten Austausch.",
+        "6": "Es geht um Anfragen für das Alltagsleben, die durch die aktuelle Situation nicht mehr bewältigt werden können: Einkauf von Lebensmitteln, der Gang zur Post, die Dokumentabgabe bei Ämtern, aber auch sozial-gesellschaftliche Anfragen für z.B. die Koordination eines gemeinsamen Engagements oder der interaktive digitale Austausch.",
+        "7": "Ja. Jede Anfrage und auch eine ungefähre Ortsangabe sind im Portal öffentlich zu sehen. Die persönlichen Daten wie Name, E-Mail und Adresse sind wiederum nicht sichtbar.",
+        "8": "Das wird immer direkt zwischen den Personen besprochen, die die Hilfeleistung anbieten bzw. benötigen.",
+        "9": "Wir möchten mit dieser Plattform helfen – und deshalb basiert alles auf Vertrauen. Wir können also nur an die Ehrlichkeit eines jeden einzelne appellieren. RB Leipzig übernimmt keine Haftung für die im Portal eingestellten Anfragen. Es liegt also letztlich in eurem Ermessen, ob ihr eine Anfrage unterstützt. Wir empfehlen immer einen direkten Austausch zur jeweiligen Anfrage (im Idealfall telefonisch), um alles unmissverständlich zu besprechen.",
+        "10": "Wichtig ist, dass ihr zwingend den direkten Kontakt vermeidet oder zumindest den Mindestabstand von zwei Metern einhaltet. Wichtig ist vor allem, dass ihr euch selbst nicht in Ansteckungsgefahr begebt. Stellt die besorgten Dinge im besten Fall vor der Tür ab, informiert die Person, der ihr helft und gebt Bescheid, dass alles abgegeben wurde.",
+        "11": "Nein. Es ist eine freiwillige Unterstützung.",
+        "12": "Auch hier setzen wir ganz auf Vertrauensbasis und auf die Ehrlichkeit der Hilfebedürftigen. Solltet ihr unsicher sein, ob z.B. ein Nachbar tatsächlich in Quarantäne ist, fragt gern nach einem ärztlichen Attest.",
+        "13": "Im Bereich „Helfen“ bieten wir eine PDF-Vorlage zum Download an. Druckt diese einfach aus und hängt die Vorlage aus."
       },
-      "howHelpPeopleWithoutInternet": {
-        "question": "Wie kann ich Leuten helfen, die kein Internet haben?",
+      "3": {
+        "question": "Du hast Fragen? Wir haben die Antworten!",
         "answer": {
-          "preLink": "Du kannst auch einen Aushang im Treppenhaus deiner Wohnung aufhängen. Eine Vorlage haben wir dir",
-          "link": "hier zum Download",
-          "postLink": "bereitgestellt."
+          "preLink": "Sollte dennoch eine Frage offen sein, melde dich einfach per E-Mail an ",
+          "link": "service.rbleipzig@redbulls.com",
+          "postLink": ""
         }
       }
     },

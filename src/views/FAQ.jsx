@@ -12,24 +12,21 @@ const QA = (props) => (
 export default function FAQ() {
   const { t } = useTranslation();
 
-  const faqTranslationStringHowTo = [
-    'howDoesItWork',
-    'whichKindOfRequests',
-    'howToPay',
-    'howToBeSureMoney',
-    'whoCanSeeRequests',
-    'howContact',
-    'whatToConsider',
-    'doIGetPaid',
-    'whatAboutSafety',
-    'whyShouldI',
-    'howDoIKnowQuarantine',
-    'howCanIHelp',
+  const faqTranslationPartOne = [
+    '1',
+    '2'
   ];
-
-  const faqTranslationStringAboutUs = [
-    'whoAreYou',
-    'howIsDataUsed',
+  const faqTranslationPartTwo = [
+    '4',
+    '5',
+    '6',
+    '7',
+    '8',
+    '9',
+    '10',
+    '11',
+    '12',
+    '13'
   ];
 
   const buildFAQs = (arrayOfKeys) => arrayOfKeys.map((translationString) => (
@@ -42,20 +39,19 @@ export default function FAQ() {
     <div className="mb-10 p-4">
       <h1 className="text-2xl font-main mt-8">{t('views.faq.title')}</h1>
 
-      {buildFAQs(faqTranslationStringHowTo)}
+      {buildFAQs(faqTranslationPartOne)}
 
       {/* This FAQ needs special treatment because of the link in it. */}
-      <QA question={t('views.faq.howHelpPeopleWithoutInternet.question')}>
-        {t('views.faq.howHelpPeopleWithoutInternet.answer.preLink')}
-        <a href="/assets/aushang.pdf" className="text-primary hover:opacity-50" download="/assets/aushang.pdf">
+      <QA question={t('views.faq.3.question')}>
+        {t('views.faq.3.answer.preLink')}
+        <a href={"mailto:" + t('views.faq.3.answer.link')} className="text-primary hover:opacity-50">
           {' '}
-          {t('views.faq.howHelpPeopleWithoutInternet.answer.link')}
+          {t('views.faq.3.answer.link')}
           {' '}
         </a>
-        {t('views.faq.howHelpPeopleWithoutInternet.answer.postLink')}
+        {t('views.faq.3.answer.postLink')}
       </QA>
-
-      {buildFAQs(faqTranslationStringAboutUs)}
+      {buildFAQs(faqTranslationPartTwo)}
 
       <Footer />
     </div>

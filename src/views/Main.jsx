@@ -40,7 +40,9 @@ export default function Main() {
         <div className="flex text-center font-teaser justify-center w-full my-8 md:my-10">
           {t('views.main.weAreHumans')}
           <br />
+          <br />
           {t('views.main.inTimesOfNeed')}
+          <br />
           <br />
           {t('views.main.bePart')}
           <br />
@@ -71,14 +73,6 @@ export default function Main() {
               <div className="font-bold">{t('views.main.importantNotes.distanced.title')}</div>
               <p>
                 {t('views.main.importantNotes.distanced.textPreBold')}
-                {' '}
-                <span
-                  className="font-bold"
-                >
-                  {t('views.main.importantNotes.distanced.textBold')}
-                </span>
-                {' '}
-                {t('views.main.importantNotes.distanced.textPostBold')}
               </p>
             </div>
           </div>
