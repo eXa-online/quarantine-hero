@@ -35,8 +35,8 @@
         "needHelp": "ICH BRAUCHE HILFE"
       },
       "explanations": {
-        "wantToHelp": "Klickt auf den Button um zu sehen, wo und wie ihr Menschen in der aktuellen Situation am besten unterstützen könnt.",
-        "needHelp": "Wenn ihr auf Hilfe benötigt, könnt ihr unter diesem Button angeben, wie und wobei man euch helfen kann."
+        "wantToHelp": "Klickt auf den Button, um zu sehen, wo und wie ihr Menschen in der aktuellen Situation am besten unterstützen könnt.",
+        "needHelp": "Wenn ihr Hilfe benötigt, könnt ihr unter diesem Button angeben, wie und wobei man euch helfen kann."
       },
       "recentRequests": {
         "title": "Aktuelle Anfragen",
@@ -66,9 +66,9 @@
       }
     },
     "completeOfferHelp": {
-      "mailYouRegistered": "Bitte geben sie die Email ein, mit der sie sich registriert haben",
+      "mailYouRegistered": "Bitte geben sie die E-Mail ein, mit der sie sich registriert haben",
       "youAreHero": "Du bist eine Helfer*in!",
-      "mailVerified": "Deine Emailadresse wurde verifiziert! Du wirst nun von uns per Email benachrichtigt werden, wenn jemand in",
+      "mailVerified": "Deine E-Mail-Adresse wurde verifiziert! Du wirst nun von uns per E-Mail benachrichtigt werden, wenn jemand in",
       "needsHelp": "Hilfe benötigt",
       "toYourOverview": "ZU DEINER ÜBERSICHT"
     },
@@ -101,13 +101,13 @@
         "13": "Gerade ältere Menschen haben kein Internet. Wie werden diese auf www.WirAlle-RBL.com aufmerksam?"
       },
       "answers": {
-        "4": "Wir wollen eine Plattform bieten, auf der ihr euch in dieser schwierigen Phase austauschen könnt. Ihr könnt um Unterstützung im Alltag bitten und vor allem natürlich auch eure Unterstützung anbieten. Dadurch wollen wir vor allem Menschen helfen, die in der aktuell eingeschränkten Lebenssituation durch Hilfe benötigen (z.B. ihr Zuhause nicht verlassen können).",
-        "5": "Ihr könnt euch über die Plattform anzeigen lassen, wer in eurer Nähe eine Hilfe-Anfrage gestellt hat und direkt auf diese Nachricht antworten. Wir übernehmen die Weiterleitung der Nachricht an die Person, die um Hilfe gebeten hat, die sich dann bei euch melden kann. Alle Details der Unterstützung besprecht ihr im direkten Austausch.",
+        "4": "Wir wollen eine Plattform bieten, auf der ihr euch in dieser schwierigen Phase austauschen könnt. Ihr könnt um Unterstützung im Alltag bitten und vor allem natürlich auch eure Unterstützung anbieten. Dadurch wollen wir vor allem Menschen helfen, die in der aktuell eingeschränkten Lebenssituation Hilfe benötigen (z.B. ihr Zuhause nicht verlassen können).",
+        "5": "Ihr könnt euch über die Plattform anzeigen lassen, wer in eurer Nähe eine Hilfe-Anfrage gestellt hat und direkt auf diese antworten. Wir übernehmen die Weiterleitung der Nachricht an die Person, die um Hilfe gebeten hat, die sich dann bei euch melden kann. Alle Details der Unterstützung besprecht ihr im direkten Austausch.",
         "6": "Es geht um Anfragen für das Alltagsleben, die durch die aktuelle Situation nicht mehr bewältigt werden können: Einkauf von Lebensmitteln, der Gang zur Post, die Dokumentabgabe bei Ämtern, aber auch sozial-gesellschaftliche Anfragen für z.B. die Koordination eines gemeinsamen Engagements oder der interaktive digitale Austausch.",
         "7": "Ja. Jede Anfrage und auch eine ungefähre Ortsangabe sind im Portal öffentlich zu sehen. Die persönlichen Daten wie Name, E-Mail und Adresse sind wiederum nicht sichtbar.",
         "8": "Das wird immer direkt zwischen den Personen besprochen, die die Hilfeleistung anbieten bzw. benötigen.",
-        "9": "Wir möchten mit dieser Plattform helfen – und deshalb basiert alles auf Vertrauen. Wir können also nur an die Ehrlichkeit eines jeden einzelne appellieren. RB Leipzig übernimmt keine Haftung für die im Portal eingestellten Anfragen. Es liegt also letztlich in eurem Ermessen, ob ihr eine Anfrage unterstützt. Wir empfehlen immer einen direkten Austausch zur jeweiligen Anfrage (im Idealfall telefonisch), um alles unmissverständlich zu besprechen.",
-        "10": "Wichtig ist, dass ihr zwingend den direkten Kontakt vermeidet oder zumindest den Mindestabstand von zwei Metern einhaltet. Wichtig ist vor allem, dass ihr euch selbst nicht in Ansteckungsgefahr begebt. Stellt die besorgten Dinge im besten Fall vor der Tür ab, informiert die Person, der ihr helft und gebt Bescheid, dass alles abgegeben wurde.",
+        "9": "Wir möchten mit dieser Plattform helfen – und deshalb basiert alles auf Vertrauen. Wir können also nur an die Ehrlichkeit eines jeden einzelnen appellieren. RB Leipzig übernimmt keine Haftung für die im Portal eingestellten Anfragen. Es liegt also letztlich in eurem Ermessen, ob ihr eine Anfrage unterstützt. Wir empfehlen immer einen direkten Austausch zur jeweiligen Anfrage (im Idealfall telefonisch), um alles unmissverständlich zu besprechen.",
+        "10": "Wichtig ist, dass ihr zwingend den direkten Kontakt vermeidet oder zumindest den Mindestabstand von zwei Metern einhaltet, damit ihr euch selbst nicht in Ansteckungsgefahr begebt. Wichtig ist vor allem, dass ihr euch selbst nicht in Ansteckungsgefahr begebt. Stellt die besorgten Dinge im besten Fall vor der Tür ab, informiert die Person, der ihr helft und gebt Bescheid, dass alles abgegeben wurde.",
         "11": "Nein. Es ist eine freiwillige Unterstützung.",
         "12": "Auch hier setzen wir ganz auf Vertrauensbasis und auf die Ehrlichkeit der Hilfebedürftigen. Solltet ihr unsicher sein, ob z.B. ein Nachbar tatsächlich in Quarantäne ist, fragt gern nach einem ärztlichen Attest.",
         "13": "Im Bereich „Helfen“ bieten wir eine PDF-Vorlage zum Download an. Druckt diese einfach aus und hängt die Vorlage aus."
@@ -115,7 +115,7 @@
       "3": {
         "question": "Du hast Fragen? Wir haben die Antworten!",
         "answer": {
-          "preLink": "Sollte dennoch eine Frage offen sein, melde dich einfach per E-Mail an ",
+          "preLink": "Sollte dennoch eine Frage offen sein, melde dich einfach per E-Mail unter ",
           "link": "service.rbleipzig@redbulls.com",
           "postLink": ""
         }
@@ -123,8 +123,8 @@
     },
     "notifyMe": {
      "beNotified": "Lass Dich benachrichtigen, wenn Jemand in Deiner Umgebung Hilfe braucht.",
-      "emailSent": "Wir haben dir eine Email gesendet! Bitte überprüfe dein Postfach und klicke auf den Link in unserer Email! Wir werden dich dann benachrichtigen, wenn Leute in {{location}} Hilfe benötigen.",
-      "yourMail": "Deine Emailadresse",
+      "emailSent": "Wir haben dir eine E-Mail gesendet! Bitte überprüfe dein Postfach und klicke auf den Link in unserer E-Mail! Wir werden dich dann benachrichtigen, wenn Leute in {{location}} Hilfe benötigen.",
+      "yourMail": "Deine E-Mail-Adresse",
       "notifyMe": "Benachrichtige mich wenn jemand in {{location}} Hilfe braucht!"
     },
     "offerHelp": {
@@ -190,9 +190,9 @@
     "filteredList": {
       "in": "In",
       "noHelpCurrentlyNeeded": "wird gerade keine Hilfe gebraucht!",
-      "notifyMe": "Benachrichtige mich wenn jemand in",
-      "closeTo": "in der Nähe von",
-      "closeToMe": "in meiner Nähe",
+      "notifyMe": "Benachrichtige mich, wenn jemand in",
+      "closeTo": "der Nähe von",
+      "closeToMe": "meiner Nähe",
       "needsHelp": "Hilfe braucht!",
       "showMore": "Weitere anzeigen..."
     },

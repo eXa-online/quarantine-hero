@@ -58,13 +58,13 @@ const Signup = (props) => {
       <form onSubmit={signInOrRegister}>
         <div className="mb-4">
           <div className="font-teaser mb-6">
-            Registriere dich mit deiner E-Mail und einem Passwort um eine Hilfe-Anfrage zu posten oder melde
+            Registriere dich mit deiner E-Mail und einem Passwort, um eine Hilfe-Anfrage zu posten oder melde
             dich an, wenn du bereits einen Account besitzt.
           </div>
           <label className="block text-gray-700 text-sm font-bold mb-1 font-open-sans" htmlFor="username">
             E-Mail
           </label>
-          <MailInput className="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none input-focus" placeholder="Deine Emailadresse" onSetEmail={setEmail} defaultValue={email} />
+          <MailInput className="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none input-focus" placeholder="Deine E-Mail-Adresse" onSetEmail={setEmail} defaultValue={email} />
         </div>
         <div className="mb-8">
           <label className="block text-gray-700 text-sm font-bold mb-1 text font-open-sans" htmlFor="password">

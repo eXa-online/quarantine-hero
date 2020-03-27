@@ -8,7 +8,7 @@ function checkForDEM(data, setEmailCallback) {
     // check if the mail address is included in the DEM-list
     if (dems.indexOf(domain) >= 0) {
       // this is a DEM
-      data.target.setCustomValidity('Bitte keine Wegwerf-Emailadresse verwenden.');
+      data.target.setCustomValidity('Bitte keine Wegwerf-E-mail-Adresse verwenden.');
     } else {
       // this is not a DEM
       data.target.setCustomValidity('');
