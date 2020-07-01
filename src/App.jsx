@@ -64,7 +64,6 @@ function App(props) {
   return (
     <div className="flex items-center min-h-screen flex-col bg-rb-transition relative">
       <div className="bg-image-net absolute inset-0 bg-fixed">
-        <img className="fixed opacity-25" alt="net bg" src="https://www.dierotenbullen.com/images/0010/1/1800/1200/805/rbl//2017/2/2/ebbb4092aa9694ec9aabe2ee143b4067.png" />
       </div>
       <Router>
         <div className="hidden md:flex justify-end md:mt-12 w-full phone-width items-center relative">
